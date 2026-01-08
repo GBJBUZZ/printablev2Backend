@@ -73,3 +73,5 @@ public/uploads/
 # Misc
 # =========================
 .eslintcache
+
+/src/generated/prisma
