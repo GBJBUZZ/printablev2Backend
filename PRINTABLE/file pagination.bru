@@ -1,0 +1,16 @@
+meta {
+  name: file pagination
+  type: http
+  seq: 14
+}
+
+get {
+  url: http://localhost:5000/api/file?limit=2&page=2
+  body: none
+  auth: none
+}
+
+params:query {
+  limit: 2
+  page: 2
+}

@@ -1,0 +1,24 @@
+meta {
+  name: Submit Review
+  type: http
+  seq: 18
+}
+
+post {
+  url: http://localhost:5000/api/review
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+  "userId": "1",
+  "merchantId": "1",
+  "rating": 1,
+  "comment": "Great printing quality!"
+  }
+}
